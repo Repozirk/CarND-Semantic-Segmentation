@@ -29,10 +29,11 @@ Adam Optimizer was used for minimize the cross_entropy_loss
 
 ## Training
 The FCN was trained one on an AWS p2.xlarge GPU instance with following parameters:
-- `epochs = 12
+- `epochs = 12`
 - `batch_size = 1`
 - `keep_prob = 0.75`
 - `learning_rate 0.0001`
+
 With this hyper parameter, the loss drops below 0.1 within the first 3 epochs an achieves a final value of xxx after 12 epochs
 
 Example pictures of the FCN performance:
