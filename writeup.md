@@ -37,7 +37,7 @@ The FCN was trained one on an AWS p2.xlarge GPU instance with following paramete
 - `keep_prob = 0.75`
 - `learning_rate 0.0001`
 
-With this hyper parameter, the loss drops below 0.1 within the first 2 epochs an achieves a final value of xxx after 12 epochs
+With this hyper parameter, the loss drops below 0.1 within the first 2 epochs an achieves a final value of 0.0xx after 10 epochs
 
 Example pictures of the FCN performance:
 ![alt text][image1] 
