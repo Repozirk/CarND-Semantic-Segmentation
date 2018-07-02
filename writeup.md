@@ -1,6 +1,9 @@
-﻿﻿﻿﻿[//]: # (Image References)
-[image1]: ./results/Dataset_1.PNG
-[image2]: ./results/Dataset_2.PNG﻿
+[//]: # (Image References)
+[image1]: ./example/1.PNG
+[image2]: ./example/2.PNG
+[image3]: ./example/3.PNG
+[image4]: ./example/2.PNG
+[image5]: ./example/3.PNG
 
 
 # Semantic Segmentation Project
@@ -37,7 +40,11 @@ The FCN was trained one on an AWS p2.xlarge GPU instance with following paramete
 With this hyper parameter, the loss drops below 0.1 within the first 2 epochs an achieves a final value of xxx after 12 epochs
 
 Example pictures of the FCN performance:
-
+![alt text][image1] 
+![alt text][image2] 
+![alt text][image3] 
+![alt text][image4] 
+![alt text][image5] 
 
 
 
