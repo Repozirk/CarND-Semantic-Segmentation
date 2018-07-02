@@ -24,10 +24,10 @@ The project was created with the Udacity [Starter Code](https://github.com/udaci
 To label the pixels of a road in images a Fully Convolutional Network (FCN) was used. The Model is based on a trained VGG16 Model, with 1x1 convolutional layers, skip connections and upsampling for creating the FCN architecture. 
 The convolutional layers and transpose convolutional layers include kernal reglatization and initilizaiton.
 
-## Optimmizer
+#### Optimmizer
 Adam Optimizer was used for minimize the cross_entropy_loss 
 
-## Training
+#### Training
 The FCN was trained one on an AWS p2.xlarge GPU instance with following parameters:
 - `epochs = 12`
 - `batch_size = 1`
