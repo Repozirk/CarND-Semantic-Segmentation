@@ -12,7 +12,7 @@ The project was created with the Udacity [Starter Code](https://github.com/udaci
 
 ## Content of this repo
  - `data` a directory with the  "Kitti Road dataset" for training the NN.
- - `runs` a Directory with test images
+ - `runs` a directory with test images
  - `main.py` - where the FCN is located 
  - `helper.py` - including helper functions and the VGG16 model
  - `project_test.py` - for testing the code
@@ -21,9 +21,25 @@ The project was created with the Udacity [Starter Code](https://github.com/udaci
 #####
 ## Result
 #### Architecture
-
 To label the pixels of a road in images a Fully Convolutional Network (FCN) was used. The Model is based on a trained VGG16 Model, with 1x1 convolutional layers, skip connections and upsampling for creating the FCN architecture. 
 The convolutional layers and transpose convolutional layers include kernal reglatization and initilizaiton.
+
+## Optimmizer
+Adam Optimizer was used for minimize the cross_entropy_loss 
+
+## Training
+The FCN was trained one on an AWS p2.xlarge GPU instance with following parameters:
+- `epochs = 12
+- `batch_size = 1`
+- `keep_prob = 0.75`
+- `learning_rate 0.0001`
+With this hyper parameter, the loss drops below 0.1 within the first 3 epochs an achieves a final value of xxx after 12 epochs
+
+Example pictures of the FCN performance:
+
+
+
+
 
 
 
