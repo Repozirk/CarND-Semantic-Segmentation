@@ -16,6 +16,7 @@ The project was created with the Udacity [Starter Code](https://github.com/udaci
 ## Content of this repo
  - `data` a directory with the  "Kitti Road dataset" for training the NN.
  - `runs` a directory with test images
+ - `example` a directory with example images
  - `main.py` - where the FCN is located 
  - `helper.py` - including helper functions and the VGG16 model
  - `project_test.py` - for testing the code
