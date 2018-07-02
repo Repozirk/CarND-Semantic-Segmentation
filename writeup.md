@@ -3,7 +3,7 @@
 [image2]: ./results/Dataset_2.PNG﻿
 
 
-#Semantic Segmentation Project
+# Semantic Segmentation Project
 This is Project 2 of Udacity Self-Driving Car Nanodegree program Term3. 
 In this project, the goal is to label the pixels of a road in images using a Fully Convolutional Network (FCN).
 The project was created with the Udacity [Starter Code](https://github.com/udacity/CarND-Semantic-Segmentation).
