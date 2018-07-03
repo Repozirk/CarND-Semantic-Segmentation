@@ -1,9 +1,9 @@
 [//]: # (Image References)
-[image1]: ./example/1.PNG
-[image2]: ./example/2.PNG
-[image3]: ./example/3.PNG
-[image4]: ./example/2.PNG
-[image5]: ./example/3.PNG
+[image1]: ./example/1.png
+[image2]: ./example/2.png
+[image3]: ./example/3.png
+[image4]: ./example/2.png
+[image5]: ./example/3.png
 
 
 # Semantic Segmentation Project
