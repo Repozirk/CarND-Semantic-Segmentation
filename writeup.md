@@ -2,8 +2,8 @@
 [image1]: ./example/1.png
 [image2]: ./example/2.png
 [image3]: ./example/3.png
-[image4]: ./example/2.png
-[image5]: ./example/3.png
+[image4]: ./example/4.png
+[image5]: ./example/5.png
 
 
 # Semantic Segmentation Project
